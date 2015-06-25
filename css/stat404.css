@@ -1,0 +1,146 @@
+*{margin:0;padding:0}
+li{list-style:none}
+a{text-decoration:none}
+html,body{height:100%;font-family:'Lato Thin',sans-serif;width:100%}
+button{outline:none;border:none;}
+
+/*-------------------------- ALL ----------------------------------*/
+.wrapAll{
+	min-width:100%;
+	min-height:100%;
+	background:url(/img/notfoundBG.jpg)no-repeat center;
+	background-size:cover;
+}
+
+/*-------------------------- CIRCLE -------------------------------*/
+.circle_wrapper{
+	max-width:700px;
+	height:auto;
+	padding:50px 0 0 0;
+	margin:0 auto;
+}
+.circle_edging{
+	width:97%;
+	height:670px;
+	border:#FFF solid 5px;
+	background:transparent;
+	padding:1%;
+	float:left;
+	border-radius:50%;
+}
+.circle_edg_inner{
+	width:100%;
+	height:670px;
+	border-radius:50%;
+	background:#FFF;
+	text-align:center;
+}
+.circle_edg_inner > header{
+	font-size:35px;
+	color:#222;
+	padding:200px 0 0 0;
+}
+.circle_edg_inner > .description{
+	font-size:25px;
+	color:#888;
+	padding:20px 0 0 0;
+}
+.status{
+	font-size:95px;
+	font-weight:600;
+	text-align:center;
+	width:100%;
+	font-family:'Tahoma',sans-serif;
+}
+.link_btn{
+	font-size:20px;
+	color:#222;
+	background:#FEC10E;
+	width:315px;
+	padding:20px 0;
+	display:block;
+	margin:60px auto 0;
+}
+.link_btn:hover{
+	color:#FFF;
+	background:#FF131E;
+}
+
+/*-------------------------- MODALS -------------------------------*/
+.modals_wrapper{
+	display:none;
+}
+
+/*------------------------ MEDIA SCRIN WITH RESOLUTION (350px) -------------------*/
+@media screen and (max-width:1370px){
+	.circle_wrapper{
+		max-width:500px;
+	}
+	.circle_edging{
+		height:480px;
+		margin:80px 0 0 0;
+	}
+	.circle_edg_inner{
+		height:480px;
+	}
+	.circle_edg_inner > header{
+		font-size:25px;
+		padding:120px 0 0 0;
+	}
+	.circle_edg_inner > .description{
+		font-size:18px;
+		color:#888;
+		padding:20px 0 0 0;
+	}
+	.status{
+		font-size:95px;
+	}
+	.link_btn{
+		font-size:16px;
+		background:#FEC10E;
+		width:215px;
+		padding:15px 0;
+		display:block;
+		margin:40px auto 0;
+	}
+	
+}
+
+/*----------------- MEDIA SCRIN WITH RESOLUTION (430px) -------------------*/
+@media screen and (max-width:630px){
+	.circle_wrapper{
+		max-width:270px;
+	}
+	.circle_edging{
+		height:250px;
+		margin:80px 0 0 0;
+	}
+	.circle_edg_inner{
+		height:250px;
+	}
+	.circle_edg_inner > header{
+		font-size:14px;
+		padding:40px 0 0 0;
+	}
+	.circle_edg_inner > .description{
+		font-size:13px;
+		width:80%;
+		margin:0 auto;
+		color:#888;
+		padding:2px 0 0 0;
+	}
+	.status{
+		font-size:55px;
+	}
+	.link_btn{
+		font-size:12px;
+		background:#FEC10E;
+		width:155px;
+		padding:10px 0;
+		display:block;
+		margin:20px auto 0;
+	}
+	
+}
+
+

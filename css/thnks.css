@@ -1,0 +1,141 @@
+*{margin:0;padding:0}
+li{list-style:none}
+a{text-decoration:none}
+html,body{height:100%;font-family:'Lato Thin',sans-serif;width:100%}
+button{outline:none;border:none;}
+
+/*-------------------------- ALL ----------------------------------*/
+.wrapAll{
+	min-width:100%;
+	min-height:100%;
+	background:url(/img/notfoundBG.jpg)no-repeat center;
+	background-size:cover;
+}
+
+/*-------------------------- CIRCLE -------------------------------*/
+.circle_wrapper{
+	max-width:700px;
+	height:auto;
+	padding:120px 0 50px 0;
+	margin:0 auto 50px;
+}
+.circle_edging{
+	width:97%;
+	height:auto;
+	border:#FFF solid 5px;
+	background:transparent;
+	margin:0 0 50px 0;
+	padding:1%;	
+	float:left;
+}
+.circle_edg_inner{
+	width:100%;
+	height:auto;	
+	background:#FFF;
+	text-align:center;
+}
+.circle_edg_inner > header{
+	font-size:22px;
+	color:#888;
+	padding:50px 0 0 0;
+}
+.circle_edg_inner > .description{
+	font-size:25px;
+	color:#111;
+	font-weight:bold;
+	margin:0 20px;
+	text-align:center;
+	padding:20px 0 0 0;
+}
+.arrow{
+	text-align:center;
+	margin:30px auto; 
+}
+.social_links_list{
+	width:190px;
+	margin:0px auto 0;
+}
+.social_links_list li{
+	float:left;
+	margin:0 6px;
+}
+.social_links_list li a{
+	
+}
+.social_links_list li a > img{
+	width:100%;
+	opacity:0.7;
+	
+transition:all 0.3s ease-in-out;
+-webkit-transition:all 0.3s ease-in-out;
+-moz-transition:all 0.3s ease-in-out;
+-khtml-transition:all 0.3s ease-in-out;
+-o-transition:all 0.3s ease-in-out;
+}
+.social_links_list li a > img:hover{opacity:1;}
+
+/*-------------------------- MODALS -------------------------------*/
+.modals_wrapper{
+	display:none;
+}
+
+
+
+/*----------------- MEDIA SCRIN WITH RESOLUTION (430px) -------------------*/
+@media screen and (max-width:830px){
+	.circle_wrapper{
+		max-width:700px;
+		height:auto;
+		padding:120px 50px;
+		margin:0 auto;
+	}
+	
+}
+
+/*----------------- MEDIA SCRIN WITH RESOLUTION (430px) -------------------*/
+@media screen and (max-width:580px){
+	.circle_wrapper{
+		max-width:700px;
+		height:auto;
+		padding:120px 20px;
+		margin:0 auto;
+	}
+	.circle_edging{
+		width:97%;
+		height:auto;
+		border:#FFF solid 5px;
+		background:transparent;
+		padding:1%;
+		float:left;
+	}
+	.circle_edg_inner{
+		width:100%;
+		height:auto;
+		background:#FFF;
+		text-align:center;
+	}
+	.circle_edg_inner > header{
+		font-size:16px;
+		margin:0 30px;
+		padding:50px 0 0 0;
+	}
+	.circle_edg_inner > .description{
+		font-size:18px;
+		color:#111;
+		font-weight:bold;
+		margin:10px 20px 20px;
+		text-align:center;
+		padding:20px 0 0 0;
+	}
+	.arrow{
+		text-align:center;
+		margin:10px auto 20px; 
+	}
+	.social_links_list{
+		width:190px;
+		margin:0px auto 0;
+	}
+	
+}
+
+
